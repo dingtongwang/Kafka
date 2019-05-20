@@ -23,5 +23,8 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    
+    compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.2.5.RELEASE'
+    
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
